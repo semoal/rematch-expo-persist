@@ -1,0 +1,30 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "eject": "expo eject"
+  },
+  "dependencies": {
+    "@expo/vector-icons": "^10.0.3",
+    "@react-native-async-storage/async-storage": "^1.13.4",
+    "@rematch/core": "^2.0.0",
+    "@rematch/persist": "^2.0.0",
+    "expo": "~37.0.3",
+    "react": "~16.9.0",
+    "react-dom": "~16.9.0",
+    "react-native": "^0.63.4",
+    "react-native-elements": "^0.19.1",
+    "react-native-web": "~0.11.7",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.5",
+    "redux-persist": "^6.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.6",
+    "babel-preset-expo": "~8.1.0"
+  },
+  "private": true
+}
